@@ -3,4 +3,5 @@ squid:
  ports:
    - "3128:3128"
  volumes:
-   - ./conf/squid.conf:/etc/squid3/squid.conf 
+   - ./conf/squid.conf:/etc/squid3/squid.conf
+   - ./cert/myca.pem:/etc/squid/ssl_cert/myca.pem
