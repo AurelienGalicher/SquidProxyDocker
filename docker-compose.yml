@@ -5,3 +5,4 @@ squid:
  volumes:
    - ./conf/squid.conf:/etc/squid3/squid.conf
    - ./cert/myca.pem:/etc/squid/ssl_cert/myca.pem
+   - ./cache:/squid/var/cache/squid
